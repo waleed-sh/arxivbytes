@@ -31,13 +31,11 @@ Each day, it automatically:
 ## Viewing the Summaries
 
 - **Latest Summary**:  
-  The most recent summary file will be named something like `arXivBytes_{category}_summaries_{date}.md`, where `{date}` 
-corresponds to the date it was generated and `{category}` to the arXiv category. You can find the latest file by checking the repository’s root directory 
-for the most recent date in each respective arXiv category folder.
+  The most recent summary files will be placed in the root directory of this repository and are named something like `arXivBytes_{category}_recent.md`, where `{category}` corresponds to the arXiv category.
   
 - **Previous Summaries**:  
-  All previously generated `.md` files remain in the repository’s commit history. You can view older summaries by 
-browsing past commits or searching through the repository’s file history.
+  All previously generated `.md` files remain in the repository’s commit history and are also available in each arXiv category folder. You can view older summaries by 
+browsing past commits or searching through the desired arXiv category folder in the repository. The summaries are saved as `arXivBytes_{category}_summaries_{date}.md` where `{date}` corresponds to the date it was generated.
 
 <hr>
 
